@@ -67,11 +67,9 @@ h1, h2, h3, h4, h5 {
 
 
 a {
-	/* display: flex; */
 	color:gray;
 	text-decoration: none;
 	width: 14%;
-	/* flex-direction: row; */
 }
 
 .button{
@@ -82,7 +80,6 @@ a {
 h1{
 	font-size: 64px;
 	text-align: center;
-	/* display: inline-block; */
 }
 
 h3{
@@ -92,21 +89,6 @@ h3{
 footer{
 	text-align: center;
 	margin-bottom: 50px;
-}
-
-
-/* 
-.inner-p{
-	display: inline-block;
-	width: 45%;
-	
-} */
-
-.header{
-	
-	/* display: inline-block;
-	height: 400px;
-	width: 45%; */
 }
 
 .header-left{
@@ -121,7 +103,6 @@ footer{
 }
 
 #header{
-	/* display:inline-block; */
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
@@ -135,23 +116,15 @@ footer{
 
 .upper-content{
 	width: 45%;
+	margin: 1%;
 }
 
-.middle-img{
-	/* display: block;
-	align-content: center;
-	width: 100%; */
-	
+.middle-img{	
 	display: block;
 	align-content: center;
 	margin-right: auto;
 	margin-left: auto;
 	width: 95%;
-	
-	/* display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%; */
 }
 
 .middle-picture{
@@ -160,12 +133,8 @@ footer{
 	margin-right: auto;
 	align-content: center;
 	width: 95%;
+	margin-bottom: 45px;
 }
-/* 
-.bottom-content{
-	display: inline-block;
-	width: 30%
-} */
 
 .contact p{
 	margin-top: 15px;
@@ -187,17 +156,13 @@ footer{
 
 .logo{
 	display: inline-block;
-	/* width: 11%; */
-	/* margin-right: 100px; */
 }
 
 html {
 	margin: 35px;
-	/* align-content: center; */
 }
 
 .code-circle-img {
-	/* display: inline-block; */
 	display: block;
 	align-content: center;
 	margin-right: auto;
@@ -215,8 +180,6 @@ nav{
 .header-img{
 	display: flex;
 	justify-content: center;
-	/* width: 100%;
-	align-items: stretch; */
 	margin-bottom: 25px;
 }
 
@@ -260,19 +223,12 @@ h2 {
 .bottom-content{
 	display: flex;
 	flex-direction: row;
-	/* padding: 2%; */
-	/* justify-content: center; */
-	/* /* flex-wrap: wrap; */
 	align-content: flex-start;
-	width: 100%;
 }
 
 .bottom-content-box{
-	/* display: inline-block; */
 	width: 45%;
 	margin: 1%;
-	/* padding: 2%; */
-	/* height: 500px; */
 }
 
 footer {
@@ -291,7 +247,23 @@ li {
 	margin-left:5%;
 }
 
+.index-bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-bottom: 45px;
+}
+
+.index-bottom-content {
+	width: 32%;
+	margin:1%;
+}
+
 .container {
 	max-width: 1000px;
 	margin: auto;
+}
+
+.contact {
+	margin-top: 45px;
 }
